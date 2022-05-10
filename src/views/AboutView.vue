@@ -28,7 +28,6 @@ import Navbar from "../components/navbar.vue";
         <div class="row">
           <div class="col-lg-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="/src/assets/alq.png" alt="..." />
               <h4 class="media"><a target="_blank" href="https://wa.me/6283800945787">
                 Whatsapp
               </a></h4>
@@ -48,7 +47,6 @@ import Navbar from "../components/navbar.vue";
           </div>
           <div class="col-lg-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="/src/assets/3.png" alt="..." />
               <h4 class="media">Instagram</h4>
               <p class="tl">@bentocake.athere</p>
               <a class="btn btn-social mx-2" style="background-image: url('src/assets/alq2.png');" href="https://www.instagram.com/bentocake.athere/?igshid=YmMyMTA2M2Y="></a>
