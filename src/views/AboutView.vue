@@ -1,5 +1,5 @@
 <script setup>
-import Navbar from "../components/Navbar.vue";
+import Navbar from "../components/navbar.vue";
 
 </script>
 
@@ -28,7 +28,7 @@ import Navbar from "../components/Navbar.vue";
         <div class="row">
           <div class="col-lg-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="/src/assets/1.jpg" alt="..." />
+              <img class="mx-auto rounded-circle" src="/src/assets/alq.png" alt="..." />
               <h4 class="media"><a target="_blank" href="https://wa.me/6283800945787">
                 Whatsapp
               </a></h4>
