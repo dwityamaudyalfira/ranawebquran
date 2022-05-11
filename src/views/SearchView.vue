@@ -108,7 +108,7 @@ export default {
           <audio v-bind:src="audio.audio_url" controls>
           </audio>
         </p>
-    </div>
+      </div>
     </div>
     <div v-if="cari" v-for="(ayat,index) in surah" :key="index" class="card">
       <div class="card-body">
@@ -118,11 +118,13 @@ export default {
     </div>
   </div>
 
+
 </template>
 
 
 <style>
 .cari{
-
+  font-family: poppins;
+  font-size: 2rem;
 }
 </style>

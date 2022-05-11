@@ -1,29 +1,21 @@
 <script setup>
-import Navbar from "../components/navbar.vue";
+import Navbar from "../components/Navbar.vue";
 
 </script>
 <template>
   <Navbar/>
   <section class="hero is-small">
-    <div class="hero-body">
-      <p class="title">
-        Random Ayat
-      </p>
-      <p class="subtitle">
-        Random Ayat from https://api.quran.com/
-      </p>
-    </div>
   </section>
   <section class="content">
     <div>
-      <h2 v-if="chapter" class="has-text-right">{{chapter.name_arabic}} {{verse.verse_number}}</h2>
+      <h2 v-if="chapter" class="text-center mt-5">{{chapter.name_arabic}} {{verse.verse_number}}</h2>
       <p v-if="audio" class="has-text-right">
         <audio controls>
           <source :src=audio type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </p>
-      <h3 v-if="quran" class="has-text-right quran">{{quran.text_uthmani}}</h3>
+      <h3 v-if="quran" class="has-text-end quran">{{quran.text_uthmani}}</h3>
       <p v-if="translation">{{translation.text}}</p>
     </div>
     <div class="has-text-centered" v-if="isLoading">
@@ -128,3 +120,9 @@ export default {
   }
 }
 </script>
+<style>
+.content{
+  font-family: fontArab;
+}
+
+</style>
